@@ -1,0 +1,27 @@
+{
+  "monitors": [
+    {
+      "id": "egun_softair",
+      "name": "eGun – Softair",
+      "url": "https://egun.de/market/list_items.php?cat=492",
+      "site_type": "egun",
+      "keywords": [],
+      "min_price": 45.0,
+      "sofortkauf_only": true,
+      "enabled": true
+    },
+    {
+      "name": "Monitor",
+      "url": "https://www.kleinanzeigen.de/s-oldenburg/monitor/k0l3108r10",
+      "keywords": [
+        "Monitor",
+        "32 Zoll"
+      ],
+      "min_price": 0.0,
+      "sofortkauf_only": true,
+      "enabled": true,
+      "id": "610a6e59",
+      "site_type": "kleinanzeigen"
+    }
+  ]
+}
