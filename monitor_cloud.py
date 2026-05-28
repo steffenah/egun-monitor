@@ -84,15 +84,22 @@ def get_listings(monitor: dict) -> list[dict]:
 
 
 def matches(item: dict, monitor: dict) -> bool:
-    keywords     = monitor.get("keywords", [])
-    min_price    = monitor.get("min_price", 0)
-    sofort_only  = monitor.get("sofortkauf_only", False)
+    keywords    = monitor.get("keywords", [])
+    min_price   = monitor.get("min_price", 0)
+    max_price   = monitor.get("max_price", 0)   # 0 = kein Limit
+    sofort_only = monitor.get("sofortkauf_only", False)
 
     if keywords:
         title_lower = item["title"].lower()
         if not any(kw.lower() in title_lower for kw in keywords):
             return False
-    if min_price and (item.get("price") or 0) < min_price:
+
+    # Relevanten Preis bestimmen (Sofortkauf bevorzugt, sonst Auktionspreis)
+    relevant_price = item.get("sofortkauf_price") or item.get("auction_price") or item.get("price") or 0
+
+    if min_price and relevant_price < min_price:
+        return False
+    if max_price and relevant_price > max_price:
         return False
     if sofort_only and not item.get("is_sofortkauf", True):
         return False

@@ -150,7 +150,9 @@ def parse_kleinanzeigen(soup: BeautifulSoup, base_url: str = "https://www.kleina
             "id": item_id,
             "title": title,
             "price": price,
-            "is_sofortkauf": True,  # Kleinanzeigen = immer Festpreis/VB
+            "auction_price": None,
+            "sofortkauf_price": price,   # Kleinanzeigen = immer Festpreis
+            "is_sofortkauf": True,
             "url": item_url,
         })
     return listings
@@ -184,6 +186,8 @@ def parse_generic(soup: BeautifulSoup, page_url: str) -> list[dict]:
             "id": full_url,
             "title": title,
             "price": None,
+            "auction_price": None,
+            "sofortkauf_price": None,
             "is_sofortkauf": True,
             "url": full_url,
         })

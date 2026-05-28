@@ -116,9 +116,10 @@ def show_app():
                         help="z.B.  airsoft, sniper, gbb"
                     )
                 with col2:
-                    new_price  = st.number_input("Mindestpreis (€)", value=float(m.get("min_price", 0)), min_value=0.0, step=5.0, key=f"price_{i}")
-                    new_sofort = st.checkbox("Nur Sofortkauf / Festpreis", value=m.get("sofortkauf_only", False), key=f"sofort_{i}")
-                    new_active = st.checkbox("Monitor aktiv", value=m.get("enabled", True), key=f"active_{i}")
+                    new_price     = st.number_input("Mindestpreis (€)  (0 = kein Limit)", value=float(m.get("min_price", 0)), min_value=0.0, step=5.0, key=f"price_{i}")
+                    new_max_price = st.number_input("Maximalpreis (€)  (0 = kein Limit)", value=float(m.get("max_price", 0)), min_value=0.0, step=5.0, key=f"maxprice_{i}")
+                    new_sofort    = st.checkbox("Nur Sofortkauf / Festpreis", value=m.get("sofortkauf_only", False), key=f"sofort_{i}")
+                    new_active    = st.checkbox("Monitor aktiv", value=m.get("enabled", True), key=f"active_{i}")
 
                 bcol1, bcol2, _ = st.columns([1, 1, 3])
                 with bcol1:
@@ -130,6 +131,7 @@ def show_app():
                             "url": new_url,
                             "keywords": kws,
                             "min_price": new_price,
+                            "max_price": new_max_price,
                             "sofortkauf_only": new_sofort,
                             "enabled": new_active,
                             "site_type": detect_site_type(new_url),
@@ -153,9 +155,10 @@ def show_app():
                 n_url   = st.text_input("URL *", placeholder="https://www.kleinanzeigen.de/s-oldenburg/airsoft/k0")
                 n_kw    = st.text_input("Suchbegriffe (leer = alles)", placeholder="airsoft, sniper, gbb")
             with col2:
-                n_price  = st.number_input("Mindestpreis (€)", min_value=0.0, step=5.0)
-                n_sofort = st.checkbox("Nur Sofortkauf / Festpreis")
-                n_active = st.checkbox("Monitor sofort aktivieren", value=True)
+                n_price     = st.number_input("Mindestpreis (€)  (0 = kein Limit)", min_value=0.0, step=5.0)
+                n_max_price = st.number_input("Maximalpreis (€)  (0 = kein Limit)", min_value=0.0, step=5.0)
+                n_sofort    = st.checkbox("Nur Sofortkauf / Festpreis")
+                n_active    = st.checkbox("Monitor sofort aktivieren", value=True)
 
             submitted = st.form_submit_button("➕ Hinzufügen", use_container_width=True, type="primary")
             if submitted:
@@ -170,6 +173,7 @@ def show_app():
                         "site_type": detect_site_type(n_url),
                         "keywords": kws,
                         "min_price": n_price,
+                        "max_price": n_max_price,
                         "sofortkauf_only": n_sofort,
                         "enabled": n_active,
                     })
