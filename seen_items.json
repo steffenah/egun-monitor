@@ -462,5 +462,20 @@
     "title": "Bildschirm Samsung",
     "price": 65.0,
     "first_seen": "2026-05-28T08:29:40.697285"
+  },
+  "610a6e59::3420046705": {
+    "title": "Monitor Screenbar LED Lampe",
+    "price": 15.0,
+    "first_seen": "2026-05-28T12:00:12.097557"
+  },
+  "610a6e59::3420022687": {
+    "title": "Samsung Curved Monitor Cf356",
+    "price": 85.0,
+    "first_seen": "2026-05-28T12:00:12.097590"
+  },
+  "610a6e59::3419945844": {
+    "title": "AOC Gaming Monitor",
+    "price": 100.0,
+    "first_seen": "2026-05-28T12:00:12.097604"
   }
 }
