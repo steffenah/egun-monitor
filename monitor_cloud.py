@@ -52,12 +52,15 @@ def send_email(monitor_name: str, new_items: list[dict], min_price: float):
 
     lines = [f"Neue Treffer für »{monitor_name}«:\n"]
     for item in new_items:
-        price_str = f"{item['price']:.2f} €" if item.get("price") else "Preis nicht angegeben"
-        lines += [
-            f"• {item['title']}",
-            f"  Preis: {price_str}",
-            f"  Link:  {item['url']}\n",
-        ]
+        lines.append(f"• {item['title']}")
+        if item.get("auction_price") is not None:
+            lines.append(f"  Aktuelles Gebot:  {item['auction_price']:.2f} €")
+        if item.get("sofortkauf_price") is not None:
+            lines.append(f"  Sofortkauf:       {item['sofortkauf_price']:.2f} €")
+        if not item.get("auction_price") and not item.get("sofortkauf_price"):
+            p = item.get("price")
+            lines.append(f"  Preis: {f'{p:.2f} €' if p else 'nicht angegeben'}")
+        lines += [f"  Link:  {item['url']}", ""]
     lines += [
         f"\nGefunden am: {datetime.now().strftime('%d.%m.%Y um %H:%M Uhr')}",
     ]

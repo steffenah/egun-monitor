@@ -3,459 +3,192 @@
     "title": "LCT RPK Riesen Kalaschnikow MG LMG SMG Maschinengewehr Yunker AK47 AK74 AKM NVA M70 Vollauto",
     "price": 440.0,
     "is_sofortkauf": true,
-    "first_seen": "2026-05-27T19:37:34.361044"
+    "first_seen": "2026-05-27T20:56:40.356754"
   },
   "20270576": {
     "title": "AIRSOFTPISTOLE aus Metall 1938 Mauser wie P38 P1",
     "price": 59.95,
     "is_sofortkauf": true,
-    "first_seen": "2026-05-27T19:37:34.361060"
+    "first_seen": "2026-05-27T20:56:40.356977"
   },
   "20382138": {
     "title": "Chassis für die ZORAKI 925-P in 9 mm P.A.K",
     "price": 249.0,
     "is_sofortkauf": true,
-    "first_seen": "2026-05-27T19:37:34.361068"
+    "first_seen": "2026-05-27T20:56:40.357155"
   },
   "20386140": {
     "title": "3,0 L PCP Tank / Flaschen 300 Bar Neu Incl Schlauch Ventil und Tasche",
     "price": 295.0,
     "is_sofortkauf": true,
-    "first_seen": "2026-05-27T19:37:34.361075"
+    "first_seen": "2026-05-27T20:56:40.357323"
+  },
+  "20384691": {
+    "title": "BO Chiappa Rhino 60DS Revolver Metall CO2 6mm",
+    "price": 110.0,
+    "is_sofortkauf": false,
+    "first_seen": "2026-05-27T20:56:40.357521"
   },
   "20378265": {
     "title": "Gletcher APS Stetchkin",
-    "price": 46.49,
+    "price": 21.0,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361076"
+    "first_seen": "2026-05-27T20:56:40.357694"
   },
   "20378283": {
     "title": "Daisy Luger 08 Japan",
-    "price": 3.5,
+    "price": 2.0,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361078"
+    "first_seen": "2026-05-27T20:56:40.358316"
   },
   "20378304": {
     "title": "Famas BB6mm Softair",
     "price": 46.5,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361079"
+    "first_seen": "2026-05-27T20:56:40.358689"
   },
   "20358051": {
     "title": "S-AEG Softair / Airsoft Gewehr GSG G14 GCS (2)",
     "price": 100.25,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361080"
+    "first_seen": "2026-05-27T20:56:40.358953"
   },
   "20358054": {
     "title": "BGS M47A1 Softair Pumpgun (2)",
     "price": 25.5,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361081"
+    "first_seen": "2026-05-27T20:56:40.359185"
   },
   "20358056": {
     "title": "S-AEG Softair / Airsoft Gewehr Schmeisser AR-15 (2)",
     "price": 36.5,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361083"
+    "first_seen": "2026-05-27T20:56:40.359349"
   },
   "20358061": {
     "title": "S-AEG Softair / Airsoft Gewehr BGS CM022 AK47 (2)",
     "price": 44.5,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361084"
+    "first_seen": "2026-05-27T20:56:40.359687"
   },
   "20308872": {
     "title": "Airsoft AEG Gewehr G&G GC16 SR CQB 0,5J mit Zubehör",
     "price": 300.0,
     "is_sofortkauf": true,
-    "first_seen": "2026-05-27T19:37:34.361091"
+    "first_seen": "2026-05-27T20:56:40.359908"
   },
   "20380238": {
     "title": "CAM870 Tactical Combat schwarz - MK3",
     "price": 380.0,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361092"
+    "first_seen": "2026-05-27T20:56:40.360077"
   },
   "20358653": {
     "title": "Stg 44 Airsoft GSG",
     "price": 170.0,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361093"
+    "first_seen": "2026-05-27T20:56:40.360241"
   },
   "20375191": {
     "title": "Maruyama MP IX mit Schalldämpfer S-GBB",
     "price": 299.0,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361095"
+    "first_seen": "2026-05-27T20:56:40.360421"
   },
   "20359138": {
     "title": "6,8 L PCP Tank / Flaschen 300 Bar Neu Incl Schlauch Ventil und Tasche",
     "price": 270.0,
     "is_sofortkauf": true,
-    "first_seen": "2026-05-27T19:37:34.361101"
+    "first_seen": "2026-05-27T20:56:40.360593"
   },
   "20379862": {
     "title": "John Wick Army Armament TTI Pit Viper HiCapa GBB (Begadi Upgrade Version)",
     "price": 249.0,
     "is_sofortkauf": true,
-    "first_seen": "2026-05-27T19:37:34.361107"
+    "first_seen": "2026-05-27T20:56:40.360747"
   },
   "20386159": {
     "title": "Well MB 4410D MSR Sniper",
     "price": 210.0,
     "is_sofortkauf": true,
-    "first_seen": "2026-05-27T19:37:34.361113"
+    "first_seen": "2026-05-27T20:56:40.360892"
   },
   "20382829": {
     "title": "AK-74UN PMC, GBB Airsoft, Top",
     "price": 119.78,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361114"
+    "first_seen": "2026-05-27T20:56:40.361041"
   },
   "20382834": {
     "title": "Heckler&Koch HK53 GBB Airsoft, Schubschaft, Top",
     "price": 192.99,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361116"
+    "first_seen": "2026-05-27T20:56:40.361197"
   },
   "20364176": {
     "title": "Umarex T4E TM4 RIS RAM CO2 Rifle Cal. .43",
     "price": 167.0,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361117"
+    "first_seen": "2026-05-27T20:56:40.361341"
   },
   "20226180": {
     "title": "HPA ICS M4 Wolverine Inferno Gen.2",
     "price": 549.0,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361118"
+    "first_seen": "2026-05-27T20:56:40.361569"
   },
   "20380430": {
     "title": "Umarex Legends Pistole C96 FM Blow Back - 4,5 mm Stahl BB CO²",
     "price": 23.5,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361120"
+    "first_seen": "2026-05-27T20:56:40.361726"
   },
   "20380433": {
     "title": "Umarex Legends PM KGB - Co2-Pistole 4,5 mm Stahl BB",
     "price": 27.5,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361121"
+    "first_seen": "2026-05-27T20:56:40.361876"
   },
   "20383131": {
     "title": "VFC Heckler & Koch HK417 D GBB",
     "price": 300.0,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361122"
+    "first_seen": "2026-05-27T20:56:40.362021"
   },
   "20333467": {
     "title": "WE Galaxy 1911 Softair, Gas-Blowback 6mm",
     "price": 72.0,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361123"
+    "first_seen": "2026-05-27T20:56:40.362162"
   },
   "19759501": {
     "title": "Abbey Predator Ultra Gas",
     "price": 14.95,
     "is_sofortkauf": true,
-    "first_seen": "2026-05-27T19:37:34.361125"
-  },
-  "20384691": {
-    "title": "BO Chiappa Rhino 60DS Revolver Metall CO2 6mm",
-    "price": 99.0,
-    "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361126"
+    "first_seen": "2026-05-27T20:56:40.362301"
   },
   "20381242": {
     "title": "Umarex Walther PPK/S Softair kleiner 0,5 Joule, cal. 6mm BB, guter Zustand",
     "price": 4.5,
     "is_sofortkauf": false,
-    "first_seen": "2026-05-27T19:37:34.361127"
+    "first_seen": "2026-05-27T20:56:40.362461"
   },
-  "egun_softair::20372397": {
-    "title": "LCT RPK Riesen Kalaschnikow MG LMG SMG Maschinengewehr Yunker AK47 AK74 AKM NVA M70 Vollauto",
-    "price": 440.0,
-    "first_seen": "2026-05-27T20:46:45.498773"
-  },
-  "egun_softair::20270576": {
-    "title": "AIRSOFTPISTOLE aus Metall 1938 Mauser wie P38 P1",
-    "price": 59.95,
-    "first_seen": "2026-05-27T20:46:45.498811"
-  },
-  "egun_softair::20382138": {
-    "title": "Chassis für die ZORAKI 925-P in 9 mm P.A.K",
-    "price": 249.0,
-    "first_seen": "2026-05-27T20:46:45.498835"
-  },
-  "egun_softair::20386140": {
-    "title": "3,0 L PCP Tank / Flaschen 300 Bar Neu Incl Schlauch Ventil und Tasche",
-    "price": 295.0,
-    "first_seen": "2026-05-27T20:46:45.498853"
-  },
-  "egun_softair::20358051": {
-    "title": "S-AEG Softair / Airsoft Gewehr GSG G14 GCS (2)",
-    "price": 100.25,
-    "first_seen": "2026-05-27T20:46:45.498870"
-  },
-  "egun_softair::20358054": {
-    "title": "BGS M47A1 Softair Pumpgun (2)",
-    "price": 25.5,
-    "first_seen": "2026-05-27T20:46:45.498875"
-  },
-  "egun_softair::20358056": {
-    "title": "S-AEG Softair / Airsoft Gewehr Schmeisser AR-15 (2)",
-    "price": 36.5,
-    "first_seen": "2026-05-27T20:46:45.498878"
-  },
-  "egun_softair::20358061": {
-    "title": "S-AEG Softair / Airsoft Gewehr BGS CM022 AK47 (2)",
-    "price": 44.5,
-    "first_seen": "2026-05-27T20:46:45.498882"
-  },
-  "egun_softair::20308872": {
-    "title": "Airsoft AEG Gewehr G&G GC16 SR CQB 0,5J mit Zubehör",
-    "price": 300.0,
-    "first_seen": "2026-05-27T20:46:45.498886"
-  },
-  "egun_softair::20380238": {
-    "title": "CAM870 Tactical Combat schwarz - MK3",
-    "price": 380.0,
-    "first_seen": "2026-05-27T20:46:45.498902"
-  },
-  "egun_softair::20358653": {
-    "title": "Stg 44 Airsoft GSG",
-    "price": 170.0,
-    "first_seen": "2026-05-27T20:46:45.498906"
-  },
-  "egun_softair::20375191": {
-    "title": "Maruyama MP IX mit Schalldämpfer S-GBB",
-    "price": 299.0,
-    "first_seen": "2026-05-27T20:46:45.498909"
-  },
-  "egun_softair::20359138": {
-    "title": "6,8 L PCP Tank / Flaschen 300 Bar Neu Incl Schlauch Ventil und Tasche",
-    "price": 270.0,
-    "first_seen": "2026-05-27T20:46:45.498912"
-  },
-  "egun_softair::20379862": {
-    "title": "John Wick Army Armament TTI Pit Viper HiCapa GBB (Begadi Upgrade Version)",
-    "price": 249.0,
-    "first_seen": "2026-05-27T20:46:45.498927"
-  },
-  "egun_softair::20386159": {
-    "title": "Well MB 4410D MSR Sniper",
-    "price": 210.0,
-    "first_seen": "2026-05-27T20:46:45.498944"
-  },
-  "egun_softair::20382829": {
-    "title": "AK-74UN PMC, GBB Airsoft, Top",
-    "price": 119.78,
-    "first_seen": "2026-05-27T20:46:45.498960"
-  },
-  "egun_softair::20382834": {
-    "title": "Heckler&Koch HK53 GBB Airsoft, Schubschaft, Top",
-    "price": 192.99,
-    "first_seen": "2026-05-27T20:46:45.498964"
-  },
-  "egun_softair::20364176": {
-    "title": "Umarex T4E TM4 RIS RAM CO2 Rifle Cal. .43",
-    "price": 167.0,
-    "first_seen": "2026-05-27T20:46:45.498978"
-  },
-  "egun_softair::20226180": {
-    "title": "HPA ICS M4 Wolverine Inferno Gen.2",
-    "price": 549.0,
-    "first_seen": "2026-05-27T20:46:45.498982"
-  },
-  "egun_softair::20380430": {
-    "title": "Umarex Legends Pistole C96 FM Blow Back - 4,5 mm Stahl BB CO²",
-    "price": 23.5,
-    "first_seen": "2026-05-27T20:46:45.498986"
-  },
-  "egun_softair::20380433": {
-    "title": "Umarex Legends PM KGB - Co2-Pistole 4,5 mm Stahl BB",
-    "price": 27.5,
-    "first_seen": "2026-05-27T20:46:45.498992"
-  },
-  "egun_softair::20383131": {
-    "title": "VFC Heckler & Koch HK417 D GBB",
-    "price": 300.0,
-    "first_seen": "2026-05-27T20:46:45.499024"
-  },
-  "egun_softair::20333467": {
-    "title": "WE Galaxy 1911 Softair, Gas-Blowback 6mm",
-    "price": 72.0,
-    "first_seen": "2026-05-27T20:46:45.499029"
-  },
-  "egun_softair::19759501": {
-    "title": "Abbey Predator Ultra Gas",
-    "price": 14.95,
-    "first_seen": "2026-05-27T20:46:45.499032"
-  },
-  "egun_softair::20384691": {
-    "title": "BO Chiappa Rhino 60DS Revolver Metall CO2 6mm",
-    "price": 99.0,
-    "first_seen": "2026-05-27T20:46:45.499036"
-  },
-  "egun_softair::20381242": {
-    "title": "Umarex Walther PPK/S Softair kleiner 0,5 Joule, cal. 6mm BB, guter Zustand",
-    "price": 4.5,
-    "first_seen": "2026-05-27T20:46:45.499040"
-  },
-  "egun_softair::20385617": {
+  "20385617": {
     "title": "Walther PPQ Airsoft Pistole Metallschlitten",
     "price": 1.5,
-    "first_seen": "2026-05-27T20:46:45.499044"
+    "is_sofortkauf": false,
+    "first_seen": "2026-05-27T21:15:55.281388"
   },
-  "egun_softair::20362248": {
+  "20362248": {
     "title": "Legends Makarov Pistole CO2 + Lederholster",
     "price": 70.0,
-    "first_seen": "2026-05-27T20:46:45.499048"
+    "is_sofortkauf": true,
+    "first_seen": "2026-05-27T21:45:13.416383"
   },
-  "egun_softair::20362253": {
+  "20362253": {
     "title": "WeiTech M1911 in Schwarz + Extra Magazin",
     "price": 95.0,
-    "first_seen": "2026-05-27T20:46:45.499071"
-  },
-  "610a6e59::3415820592": {
-    "title": "ASUS TUF Gaming VG249QM1A – 24” Gaming Monitor 270Hz IPS",
-    "price": null,
-    "first_seen": "2026-05-27T20:46:48.299544"
-  },
-  "610a6e59::3419570913": {
-    "title": "2x HP 25x Gaming Monitore, 24,5 Zoll, voll funktionsfähig",
-    "price": 150.0,
-    "first_seen": "2026-05-27T20:46:48.299599"
-  },
-  "610a6e59::3419148631": {
-    "title": "Acer Bildschirm",
-    "price": 56.0,
-    "first_seen": "2026-05-27T20:46:48.299628"
-  },
-  "610a6e59::3419049750": {
-    "title": "MEDION, Monitor",
-    "price": 30.0,
-    "first_seen": "2026-05-27T20:46:48.299633"
-  },
-  "610a6e59::3418887711": {
-    "title": "Monitor LG  24M74H-P",
-    "price": 70.0,
-    "first_seen": "2026-05-27T20:46:48.299648"
-  },
-  "610a6e59::3418756031": {
-    "title": "Gamingstuhl, Tisch und Samsung-Monitor",
-    "price": 100.0,
-    "first_seen": "2026-05-27T20:46:48.299658"
-  },
-  "610a6e59::3418749209": {
-    "title": "Einen Bilschirm von Benq",
-    "price": 10.0,
-    "first_seen": "2026-05-27T20:46:48.299667"
-  },
-  "610a6e59::3418745941": {
-    "title": "HP w2228h Monitor",
-    "price": 39.0,
-    "first_seen": "2026-05-27T20:46:48.299670"
-  },
-  "610a6e59::3418733893": {
-    "title": "PHILIPS  MONITOR 24 ZOLL",
-    "price": 25.0,
-    "first_seen": "2026-05-27T20:46:48.299677"
-  },
-  "610a6e59::3418683669": {
-    "title": "Monitor Halterung für 2 Monitore",
-    "price": 50.0,
-    "first_seen": "2026-05-27T20:46:48.299685"
-  },
-  "610a6e59::3418663161": {
-    "title": "Monitor für Computer, 22 Zoll, Samsung 226CW",
-    "price": 30.0,
-    "first_seen": "2026-05-27T20:46:48.299693"
-  },
-  "610a6e59::3418633227": {
-    "title": "verschenke Bildschirm",
-    "price": null,
-    "first_seen": "2026-05-27T20:46:48.299701"
-  },
-  "610a6e59::3418632555": {
-    "title": "verschenken Bildschirm",
-    "price": null,
-    "first_seen": "2026-05-27T20:46:48.299704"
-  },
-  "610a6e59::3418434627": {
-    "title": "Asus TUF Gaming Monitor 27 Zoll",
-    "price": 130.0,
-    "first_seen": "2026-05-27T20:46:48.299706"
-  },
-  "610a6e59::3418092264": {
-    "title": "ASUS MG28UQ Gaming Monitor 28\" 4K",
-    "price": 150.0,
-    "first_seen": "2026-05-27T20:46:48.299714"
-  },
-  "610a6e59::3418019417": {
-    "title": "Samsung Monitor",
-    "price": 25.0,
-    "first_seen": "2026-05-27T20:46:48.299722"
-  },
-  "610a6e59::3417980592": {
-    "title": "Dual Monitor Halterung",
-    "price": 25.0,
-    "first_seen": "2026-05-27T20:46:48.299730"
-  },
-  "610a6e59::3417893397": {
-    "title": "NORTH BAYOU F160 DUAL MONITOR STAND Monitor Halterung (für zwei)",
-    "price": 30.0,
-    "first_seen": "2026-05-27T20:46:48.299737"
-  },
-  "610a6e59::3417723493": {
-    "title": "Xbox Series S Gaming-Komplettset mit AOC Monitor & 2 Controllern",
-    "price": 330.0,
-    "first_seen": "2026-05-27T20:46:48.299746"
-  },
-  "610a6e59::3417394811": {
-    "title": "HP S230tm 23 Zoll Touchscreen Monitor + HD Webcam",
-    "price": 50.0,
-    "first_seen": "2026-05-27T20:46:48.299755"
-  },
-  "610a6e59::3417392839": {
-    "title": "LG 32 Zoll IPS Monitor (32MP58HQ-P) | Full HD | Top Zustand",
-    "price": 75.0,
-    "first_seen": "2026-05-27T20:46:48.299763"
-  },
-  "610a6e59::3417194493": {
-    "title": "AOC I2269Vwm Monitor mit HDM VGA DVI 21,5 \" Full HD 22 IPS",
-    "price": 50.0,
-    "first_seen": "2026-05-27T20:46:48.299770"
-  },
-  "610a6e59::3416781597": {
-    "title": "Dell Alienware AW2524HF Gaming-Monitor",
-    "price": 310.0,
-    "first_seen": "2026-05-27T20:46:48.299778"
-  },
-  "610a6e59::3416501119": {
-    "title": "ASUS Monitor 31.5inch 4K UHD mit Speaker",
-    "price": 400.0,
-    "first_seen": "2026-05-27T20:46:48.299785"
-  },
-  "610a6e59::3416496831": {
-    "title": "Ps5 Slim mit Zubehör + Neuer Asus Gaming Monitor auf Profil",
-    "price": 480.0,
-    "first_seen": "2026-05-27T20:46:48.299793"
-  },
-  "egun_softair::20382772": {
-    "title": "Heckler & Koch HK45 mit Metallschlitten GBB 6mm BB schwarz",
-    "price": 50.0,
-    "first_seen": "2026-05-27T22:56:53.470132"
-  },
-  "egun_softair::20382757": {
-    "title": "Tokyo Marui Hi-Capa 5.1 Gas-Blow-Back 6mm BB",
-    "price": 70.0,
-    "first_seen": "2026-05-27T22:56:53.470156"
-  },
-  "610a6e59::3419743498": {
-    "title": "Curved Gaming Monitor 24 Zoll, 144Hz, 1ms Reaktionszeit",
-    "price": 120.0,
-    "first_seen": "2026-05-27T22:56:55.702028"
+    "is_sofortkauf": true,
+    "first_seen": "2026-05-27T22:01:23.247491"
   }
 }

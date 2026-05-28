@@ -79,20 +79,41 @@ def parse_egun(soup: BeautifulSoup) -> list[dict]:
             continue
         seen_ids.add(item_id)
 
-        price, is_sofortkauf = None, False
+        auction_price = None
+        sofortkauf_price = None
+        is_sofortkauf = False
         row = link.find_parent("tr")
         if row:
             row_text = row.get_text(" ", strip=True)
-            price = _parse_price(row_text)
-            if row.find(class_="ls-buynow") or row.find(attrs={"title": "Sofortkauf-Artikel"}):
-                is_sofortkauf = True
-            elif "Gebote" not in row_text and "Gebot" not in row_text:
+            # Alle Preise in der Zeile finden
+            all_prices = []
+            for pm in re.finditer(r"(\d+(?:[.,]\d{1,2})?)\s*EUR", row_text, re.IGNORECASE):
+                try:
+                    all_prices.append(float(pm.group(1).replace(",", ".")))
+                except ValueError:
+                    pass
+
+            is_auction = "Gebote" in row_text or "Gebot" in row_text
+            has_buynow = bool(row.find(class_="ls-buynow") or row.find(attrs={"title": "Sofortkauf-Artikel"}))
+
+            if is_auction:
+                # Auktion: erster Preis = aktuelles Gebot, zweiter = Sofortkauf (falls vorhanden)
+                if all_prices:
+                    auction_price = all_prices[0]
+                if len(all_prices) >= 2:
+                    sofortkauf_price = all_prices[1]
+                    is_sofortkauf = True
+            else:
+                # Nur Sofortkauf
+                sofortkauf_price = all_prices[0] if all_prices else None
                 is_sofortkauf = True
 
         listings.append({
             "id": item_id,
             "title": title,
-            "price": price,
+            "price": sofortkauf_price or auction_price,  # Hauptpreis für Schwellenvergleich
+            "auction_price": auction_price,
+            "sofortkauf_price": sofortkauf_price,
             "is_sofortkauf": is_sofortkauf,
             "url": f"https://egun.de/market/item.php?id={item_id}",
         })
