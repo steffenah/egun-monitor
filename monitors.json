@@ -24,6 +24,19 @@
       "id": "610a6e59",
       "site_type": "kleinanzeigen",
       "max_price": 150.0
+    },
+    {
+      "id": "91a62d6d",
+      "name": "Ipad",
+      "url": "https://www.kleinanzeigen.de/s-oldenburg/ipad/k0l3108r10",
+      "site_type": "kleinanzeigen",
+      "keywords": [
+        "IPAD"
+      ],
+      "min_price": 20.0,
+      "max_price": 0.0,
+      "sofortkauf_only": true,
+      "enabled": true
     }
   ]
 }
