@@ -188,7 +188,7 @@ def show_app():
 
         st.markdown("""
         **Aktuelle Einstellungen** (aus GitHub Secrets):
-        - **Absender:** Eguntracker@gmail.com
+        - **Absender:** preisalarmahlers@gmail.com
         - **Empfänger:** Steffen.Ahlers90@gmail.com
 
         **Zum Ändern:**
