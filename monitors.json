@@ -22,7 +22,8 @@
       "sofortkauf_only": true,
       "enabled": true,
       "id": "610a6e59",
-      "site_type": "kleinanzeigen"
+      "site_type": "kleinanzeigen",
+      "max_price": 150.0
     }
   ]
 }
