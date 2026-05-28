@@ -192,7 +192,7 @@ def show_app():
         - **Empfänger:** Steffen.Ahlers90@gmail.com
 
         **Zum Ändern:**
-        1. Öffne: https://github.com/steffenah/egun-monitor/settings/secrets/actions
+        1. Öffne: https://github.com/steffenah/preis-alarm/settings/secrets/actions
         2. Klicke auf das Secret → **Update**
         """)
 
@@ -205,7 +205,7 @@ def show_app():
                 # Secrets direkt aus GitHub Actions – hier nicht verfügbar,
                 # darum Info-Meldung
                 st.info("Test-E-Mails können direkt über GitHub Actions ausgelöst werden:\n"
-                        "https://github.com/steffenah/egun-monitor/actions")
+                        "https://github.com/steffenah/preis-alarm/actions")
             except Exception as e:
                 st.error(str(e))
 
@@ -245,7 +245,7 @@ def show_app():
         - Die E-Mail zeigt **Bieterpreis** und **Sofortkaufpreis** getrennt an
 
         ### Live-Logs ansehen
-        👉 https://github.com/steffenah/egun-monitor/actions
+        👉 https://github.com/steffenah/preis-alarm/actions
         """)
 
 
