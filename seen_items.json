@@ -477,5 +477,25 @@
     "title": "AOC Gaming Monitor",
     "price": 100.0,
     "first_seen": "2026-05-28T12:00:12.097604"
+  },
+  "egun_softair::20343995": {
+    "title": "ICS Visierung für Airsoft Guns",
+    "price": 20.0,
+    "first_seen": "2026-05-28T16:20:55.771312"
+  },
+  "egun_softair::20382102": {
+    "title": "Softair Sniper Dongsan K.T.W. KTW Winchester M70 Begadi 6mm",
+    "price": 7.39,
+    "first_seen": "2026-05-28T16:20:55.771324"
+  },
+  "egun_softair::20382182": {
+    "title": "AK47M CO2 4,5mm Vers.3 AKM SCHWARZ Yunker DDR NVA Klappschaft",
+    "price": 599.0,
+    "first_seen": "2026-05-28T16:20:55.771328"
+  },
+  "610a6e59::3420181265": {
+    "title": "gaming monitor aoc",
+    "price": 70.0,
+    "first_seen": "2026-05-28T16:20:57.557440"
   }
 }
