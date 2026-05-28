@@ -49,6 +49,8 @@ def detect_site_type(url: str) -> str:
         return "egun"
     if "kleinanzeigen.de" in url:
         return "kleinanzeigen"
+    if "airsoft-verzeichnis.de" in url:
+        return "airsoft_verzeichnis"
     return "generic"
 
 
@@ -158,6 +160,57 @@ def parse_kleinanzeigen(soup: BeautifulSoup, base_url: str = "https://www.kleina
     return listings
 
 
+# ── Airsoft-Verzeichnis Marktplatz ────────────────────────────────────────────
+
+def parse_airsoft_verzeichnis(soup: BeautifulSoup, page_url: str) -> list[dict]:
+    listings = []
+    seen_ids: set[str] = set()
+
+    for link in soup.find_all("a", href=re.compile(r"threadnummer=\d+")):
+        title = link.get_text(strip=True)
+        if not title or len(title) < 3:
+            continue
+
+        m = re.search(r"threadnummer=(\d+)", link["href"])
+        if not m:
+            continue
+        thread_id = m.group(1)
+        if thread_id in seen_ids:
+            continue
+        seen_ids.add(thread_id)
+
+        # Preis im nächsten Elternelement suchen, das genau diesen einen Link enthält
+        price = None
+        parent = link.parent
+        for _ in range(4):
+            if parent is None:
+                break
+            thread_links_in_parent = parent.find_all("a", href=re.compile(r"threadnummer=\d+"))
+            if len(thread_links_in_parent) == 1:
+                txt = parent.get_text(" ", strip=True)
+                pm = re.search(r"(\d+(?:[.,]\d{1,2})?)\s*EUR", txt, re.IGNORECASE)
+                if pm:
+                    try:
+                        price = float(pm.group(1).replace(",", "."))
+                    except ValueError:
+                        pass
+                break
+            parent = parent.parent
+
+        full_url = f"https://www.airsoft-verzeichnis.de/{link['href']}"
+        listings.append({
+            "id": thread_id,
+            "title": title,
+            "price": price,
+            "auction_price": None,
+            "sofortkauf_price": price,
+            "is_sofortkauf": True,
+            "url": full_url,
+        })
+
+    return listings
+
+
 # ── Generisch (Foren, sonstige Listen) ───────────────────────────────────────
 
 def parse_generic(soup: BeautifulSoup, page_url: str) -> list[dict]:
@@ -205,6 +258,8 @@ def get_listings(monitor: dict) -> list[dict]:
         return parse_egun(soup)
     elif site_type == "kleinanzeigen":
         return parse_kleinanzeigen(soup)
+    elif site_type == "airsoft_verzeichnis":
+        return parse_airsoft_verzeichnis(soup, url)
     else:
         return parse_generic(soup, url)
 
