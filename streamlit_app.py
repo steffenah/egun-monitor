@@ -103,8 +103,21 @@ def show_app():
         st.subheader(f"Aktive Monitore ({len(monitors)})")
 
         for i, m in enumerate(monitors):
-            status = "🟢" if m.get("enabled", True) else "🔴"
-            with st.expander(f"{status} {m.get('name', 'Ohne Namen')}", expanded=False):
+            is_enabled = m.get("enabled", True)
+            status = "🟢" if is_enabled else "⏸️"
+
+            # Pause-Button außerhalb des Expanders (direkt sichtbar)
+            hcol1, hcol2 = st.columns([5, 1])
+            with hcol1:
+                expander_open = st.expander(f"{status} {m.get('name', 'Ohne Namen')}", expanded=False)
+            with hcol2:
+                pause_label = "▶️ An" if not is_enabled else "⏸️ Aus"
+                if st.button(pause_label, key=f"pause_{i}", use_container_width=True):
+                    monitors[i] = {**m, "enabled": not is_enabled}
+                    if save_monitors(monitors):
+                        st.rerun()
+
+            with expander_open:
                 col1, col2 = st.columns(2)
                 with col1:
                     new_name = st.text_input("Name", value=m.get("name", ""), key=f"name_{i}")
