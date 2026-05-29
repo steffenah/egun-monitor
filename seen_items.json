@@ -652,5 +652,30 @@
     "title": "Fernseher  und Monitor defekt",
     "price": 5.0,
     "first_seen": "2026-05-28T22:52:36.115947"
+  },
+  "egun_softair::20361356": {
+    "title": "Wei-ETech MSK Open-Bolt Gas-Blow-Back 6mm BB schwarz",
+    "price": 101.0,
+    "first_seen": "2026-05-29T08:33:38.602629"
+  },
+  "610a6e59::3151638426": {
+    "title": "VOLTCRAFT Energy Monitor 4000 Pro Energiekostenmessgerät",
+    "price": 15.0,
+    "first_seen": "2026-05-29T08:33:39.288014"
+  },
+  "91a62d6d::3420539913": {
+    "title": "Apple iPad Air 5. Generation, 64GB, Wi-Fi",
+    "price": 100.0,
+    "first_seen": "2026-05-29T08:33:41.018907"
+  },
+  "91a62d6d::3420523532": {
+    "title": "Apple Smart Folio iPad Air",
+    "price": 35.0,
+    "first_seen": "2026-05-29T08:33:41.018936"
+  },
+  "91a62d6d::3420507829": {
+    "title": "iPad Pro 11“ M4 Cellular + 512 GB - Silber",
+    "price": 760.0,
+    "first_seen": "2026-05-29T08:33:41.018948"
   }
 }
