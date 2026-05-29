@@ -46,9 +46,16 @@ def save_seen(seen: dict):
         json.dump(seen, f, ensure_ascii=False, indent=2)
 
 
-def send_email(monitor_name: str, new_items: list[dict], min_price: float):
+def send_email(monitor_name: str, new_items: list[dict], min_price: float, max_price: float = 0):
     count = len(new_items)
-    subject = f"🔔 {monitor_name}: {count} neues Inserat{'e' if count > 1 else ''}"
+    price_hint = ""
+    if min_price and max_price:
+        price_hint = f" · {min_price:.0f}–{max_price:.0f} €"
+    elif min_price:
+        price_hint = f" · ab {min_price:.0f} €"
+    elif max_price:
+        price_hint = f" · bis {max_price:.0f} €"
+    subject = f"🔔 {monitor_name}: {count} neues Inserat{'e' if count > 1 else ''}{price_hint}"
 
     lines = [f"Neue Treffer für »{monitor_name}«:\n"]
     for item in new_items:
@@ -140,7 +147,7 @@ def main():
 
         if new_items:
             try:
-                send_email(monitor["name"], new_items, monitor.get("min_price", 0))
+                send_email(monitor["name"], new_items, monitor.get("min_price", 0), monitor.get("max_price", 0))
             except Exception as e:
                 log(f"  E-Mail Fehler: {e}")
         else:
