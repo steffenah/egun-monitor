@@ -19,7 +19,7 @@
         "32 Zoll"
       ],
       "min_price": 10.0,
-      "sofortkauf_only": true,
+      "sofortkauf_only": false,
       "enabled": true,
       "id": "610a6e59",
       "site_type": "kleinanzeigen",
