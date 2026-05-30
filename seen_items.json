@@ -977,5 +977,15 @@
     "title": "Beschädigter Smart Tech TV 65 Zoll",
     "price": 20.0,
     "first_seen": "2026-05-30T22:16:00.763747"
+  },
+  "egun_softair::20389537": {
+    "title": "Magpul K2 Griff",
+    "price": 50.0,
+    "first_seen": "2026-05-30T23:18:12.842812"
+  },
+  "610a6e59::3422012984": {
+    "title": "tragbarer Monitor 15 Zoll",
+    "price": null,
+    "first_seen": "2026-05-30T23:18:14.995423"
   }
 }
