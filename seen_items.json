@@ -742,5 +742,25 @@
     "title": "Video Gegensprechanlage Video door phone 2 Monitore",
     "price": 129.0,
     "first_seen": "2026-05-30T08:07:07.673481"
+  },
+  "egun_softair::20386369": {
+    "title": "Softair Mini Uzi",
+    "price": 140.0,
+    "first_seen": "2026-05-30T10:14:43.580107"
+  },
+  "egun_softair::20373627": {
+    "title": "Drum-Mag AK für Cyma oder baugleich (elektr.)",
+    "price": 59.99,
+    "first_seen": "2026-05-30T10:14:43.580118"
+  },
+  "egun_softair::20358158": {
+    "title": "AKS74UN AEG (CYMA)",
+    "price": 159.99,
+    "first_seen": "2026-05-30T10:14:43.580139"
+  },
+  "610a6e59::3421369593": {
+    "title": "LG 34GL750 Gaming-Monitor (144Hz / HDR10 / 21:9 UltraWide)",
+    "price": 250.0,
+    "first_seen": "2026-05-30T10:14:45.327074"
   }
 }
