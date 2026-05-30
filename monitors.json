@@ -36,6 +36,20 @@
       "max_price": 0.0,
       "sofortkauf_only": false,
       "enabled": true
+    },
+    {
+      "id": "e4307051",
+      "name": "Tv",
+      "url": "https://www.kleinanzeigen.de/s-oldenburg/",
+      "site_type": "kleinanzeigen",
+      "keywords": [
+        "TV 75 Zoll",
+        "75 Zoll"
+      ],
+      "min_price": 100.0,
+      "max_price": 0.0,
+      "sofortkauf_only": false,
+      "enabled": true
     }
   ]
 }
