@@ -772,5 +772,15 @@
     "title": "Monitorhalterung für 3 Monitore – Maclean MC-137 mit Gasfeder",
     "price": 50.0,
     "first_seen": "2026-05-30T11:47:02.300473"
+  },
+  "610a6e59::3421586711": {
+    "title": "Doppel- Monitor Halterung",
+    "price": 15.0,
+    "first_seen": "2026-05-30T12:52:03.877973"
+  },
+  "610a6e59::3421536873": {
+    "title": "iiyama ProLite XUB2493HS (23,8 Zoll) – IPS Office Monitor",
+    "price": 65.0,
+    "first_seen": "2026-05-30T12:52:03.878006"
   }
 }
