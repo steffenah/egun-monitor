@@ -792,5 +792,15 @@
     "title": "S-AEG Softair / Airsoft Gewehr BGS M4412B Sniper",
     "price": 12.0,
     "first_seen": "2026-05-30T17:49:18.516907"
+  },
+  "egun_softair::20364648": {
+    "title": "GSG Schmeisser MP40 Vollmetall S-AEG",
+    "price": 98.99,
+    "first_seen": "2026-05-30T18:52:48.432036"
+  },
+  "91a62d6d::3421914136": {
+    "title": "M1 12,9 Zoll ipad Pro mit Zubehör",
+    "price": 530.0,
+    "first_seen": "2026-05-30T18:52:50.568052"
   }
 }
