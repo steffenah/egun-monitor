@@ -1182,5 +1182,40 @@
     "title": "TV-Bank/ Sideboard Ikea",
     "price": 15.0,
     "first_seen": "2026-05-31T14:43:39.030598"
+  },
+  "610a6e59::3422825381": {
+    "title": "27\"Zoll Acer Gaming Monitor 1ms Reaktionszeit",
+    "price": 70.0,
+    "first_seen": "2026-05-31T15:56:28.935542"
+  },
+  "610a6e59::3422806257": {
+    "title": "HP S230tm 23 Zoll Touchscreen Monitor + HD Webcam",
+    "price": 50.0,
+    "first_seen": "2026-05-31T15:56:28.935574"
+  },
+  "610a6e59::3422802000": {
+    "title": "LG 32 Zoll IPS Monitor (32MP58HQ-P) | Full HD | Top Zustand",
+    "price": 65.0,
+    "first_seen": "2026-05-31T15:56:28.935588"
+  },
+  "91a62d6d::3422805127": {
+    "title": "iPad 7. Generation – 32 GB – Top-Zustand inkl. Zubehör",
+    "price": 75.0,
+    "first_seen": "2026-05-31T15:56:30.505267"
+  },
+  "e4307051::3422796968": {
+    "title": "Sony Fernseher mit TV-Schrank zu verkaufen",
+    "price": 80.0,
+    "first_seen": "2026-05-31T15:56:32.960589"
+  },
+  "e4307051::3422791740": {
+    "title": "Universum TV Fernseher - FT-LCD 8184 DVDp",
+    "price": 10.0,
+    "first_seen": "2026-05-31T15:56:32.960600"
+  },
+  "e4307051::3422788557": {
+    "title": "Fernseher Philips 32PW8651/12, SDTV, 100Hz-Modell",
+    "price": null,
+    "first_seen": "2026-05-31T15:56:32.960604"
   }
 }
