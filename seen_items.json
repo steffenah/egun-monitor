@@ -1062,5 +1062,55 @@
     "title": "Sat Receiver von Wisi",
     "price": 10.0,
     "first_seen": "2026-05-31T11:15:44.708971"
+  },
+  "egun_softair::20375570": {
+    "title": "Legends Luftpistole 1911",
+    "price": 180.0,
+    "first_seen": "2026-05-31T12:50:36.378827"
+  },
+  "610a6e59::3422480412": {
+    "title": "Neumann LH 65 Monitor-Stative (2 Stück) – original – neigbar",
+    "price": 296.0,
+    "first_seen": "2026-05-31T12:50:37.395455"
+  },
+  "91a62d6d::3422508688": {
+    "title": "iPad Pro 11 M4 5G in Space Black mit 256 GB + Magic Keyboard",
+    "price": 1050.0,
+    "first_seen": "2026-05-31T12:50:38.149807"
+  },
+  "e4307051::3422532068": {
+    "title": "TV Schrank",
+    "price": 80.0,
+    "first_seen": "2026-05-31T12:50:41.352199"
+  },
+  "e4307051::3422502999": {
+    "title": "Weißes TV-Board",
+    "price": 75.0,
+    "first_seen": "2026-05-31T12:50:41.352210"
+  },
+  "e4307051::3422475791": {
+    "title": "TV  Lowboard",
+    "price": 35.0,
+    "first_seen": "2026-05-31T12:50:41.352214"
+  },
+  "e4307051::3422468081": {
+    "title": "Samsung 37 Zoll",
+    "price": 30.0,
+    "first_seen": "2026-05-31T12:50:41.352216"
+  },
+  "e4307051::3422443649": {
+    "title": "HD+ Karte 12 Monate NEU und 1 Modul dabei",
+    "price": 100.0,
+    "first_seen": "2026-05-31T12:50:41.352219"
+  },
+  "e4307051::3422424749": {
+    "title": "TV zu verschenken",
+    "price": null,
+    "first_seen": "2026-05-31T12:50:41.352222"
+  },
+  "e4307051::3422421335": {
+    "title": "Schwenkbare TV Halterung",
+    "price": 15.0,
+    "first_seen": "2026-05-31T12:50:41.352224"
   }
 }
