@@ -992,5 +992,40 @@
     "title": "Apple Pencil",
     "price": 25.0,
     "first_seen": "2026-05-31T01:32:48.990083"
+  },
+  "610a6e59::3422126111": {
+    "title": "Monitor LG FLATRON W2243T-PF",
+    "price": null,
+    "first_seen": "2026-05-31T09:21:48.359767"
+  },
+  "91a62d6d::3422225913": {
+    "title": "Ipad Pro 13 Zoll 2025 256gb",
+    "price": 900.0,
+    "first_seen": "2026-05-31T09:21:49.068899"
+  },
+  "e4307051::3422195525": {
+    "title": "Philips 55” 4K Ambilight TV – 55PUS8010/12",
+    "price": 340.0,
+    "first_seen": "2026-05-31T09:21:50.500032"
+  },
+  "e4307051::3422190509": {
+    "title": "Terratec Cinergy S2 PCI DVB-S2 PC HD TV-Karte inkl. CI-Slot-Addon",
+    "price": 15.0,
+    "first_seen": "2026-05-31T09:21:50.500046"
+  },
+  "e4307051::3422154704": {
+    "title": "Philips Smart TV 5300 series 40 Zoll  Fernseher LED Full HD",
+    "price": 50.0,
+    "first_seen": "2026-05-31T09:21:50.500051"
+  },
+  "e4307051::1462148381": {
+    "title": "Ferienhaus Dänemark, Juni frei, WiFi, Pool, Sauna, etc. - Hund OK",
+    "price": 299.0,
+    "first_seen": "2026-05-31T09:21:50.500054"
+  },
+  "e4307051::3422102405": {
+    "title": "Philips LCD Fernseher 37 Zoll (37PFL8404H/12)",
+    "price": 50.0,
+    "first_seen": "2026-05-31T09:21:50.500057"
   }
 }
