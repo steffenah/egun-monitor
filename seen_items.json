@@ -1217,5 +1217,30 @@
     "title": "Fernseher Philips 32PW8651/12, SDTV, 100Hz-Modell",
     "price": null,
     "first_seen": "2026-05-31T15:56:32.960604"
+  },
+  "610a6e59::3422868106": {
+    "title": "BenQ 24“ LCD Monitor für Gaming und Büro",
+    "price": 25.0,
+    "first_seen": "2026-05-31T17:07:55.931147"
+  },
+  "91a62d6d::3422885609": {
+    "title": "Ipad air 5. Gen 64gb + Applepen 2",
+    "price": 425.0,
+    "first_seen": "2026-05-31T17:07:57.575962"
+  },
+  "e4307051::3422929419": {
+    "title": "Blaupunkt LCD-TV 43 Zoll: Fußball-WM ohne Streit um Fernbedienung",
+    "price": 55.0,
+    "first_seen": "2026-05-31T17:07:59.291943"
+  },
+  "e4307051::3422902659": {
+    "title": "Dyon Enter 40 Pro X2 Fernseher",
+    "price": 100.0,
+    "first_seen": "2026-05-31T17:07:59.291955"
+  },
+  "e4307051::3422884960": {
+    "title": "Samsung Curved TV UE49K6379SUXZG voll funktionsfähig",
+    "price": 80.0,
+    "first_seen": "2026-05-31T17:07:59.291959"
   }
 }
