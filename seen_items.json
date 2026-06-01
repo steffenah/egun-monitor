@@ -1287,5 +1287,25 @@
     "title": "ACER Nitro QG241Y Monitor 23,8 Zoll",
     "price": 60.0,
     "first_seen": "2026-05-31T20:43:29.848750"
+  },
+  "610a6e59::3423224170": {
+    "title": "ACER Monitor SB2 SB322QU, Schwarz, 31,5 Zoll, WQHD, IPS, 75 Hz,",
+    "price": 137.0,
+    "first_seen": "2026-06-01T07:20:17.848056"
+  },
+  "e4307051::3423230997": {
+    "title": "Ferienhäuschen",
+    "price": 13500.0,
+    "first_seen": "2026-06-01T07:20:20.366061"
+  },
+  "e4307051::3423226958": {
+    "title": "Fire TV Stick HD",
+    "price": 15.0,
+    "first_seen": "2026-06-01T07:20:20.366076"
+  },
+  "e4307051::3423208121": {
+    "title": "Tv Schrank",
+    "price": 10.0,
+    "first_seen": "2026-06-01T07:20:20.366080"
   }
 }
