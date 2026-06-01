@@ -19,7 +19,7 @@
       ],
       "min_price": 10.0,
       "sofortkauf_only": false,
-      "enabled": true,
+      "enabled": false,
       "id": "610a6e59",
       "site_type": "kleinanzeigen",
       "max_price": 150.0
